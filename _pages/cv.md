@@ -36,4 +36,4 @@ Skills
 * Skill 3
 
 
-- just add [link](files/current_cv.pdf) to PDF CV
+- just add [link](http://lionwedel.github.io/files/current_cv.pdf) to PDF CV
