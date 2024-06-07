@@ -2,7 +2,7 @@
 title: "What Occurs as #news on TikTok? A Computational Approach"
 collection: publications
 permalink: /publication/2024-05-24-what-occures-as-#news-on-TikTok?
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'Exploring the visual, auditory, and thematic differences between self-declared news videos on TikTok by media outlets and normal users.'
 date: 2024-05-24
 venue: '16th ACM Web Science Conference (Websci Companion ’24)'
 paperurl: 'https://doi.org/10.1145/3630744.3658409'
