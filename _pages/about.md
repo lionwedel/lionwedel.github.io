@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-This is a personal website - bleding professional and private projects, academic and non-academic publications.
+This is a personal website - blending professional and private projects, academic and non-academic publications.
 Feel free to reach out to me!
 
 Test second level header
@@ -15,4 +15,6 @@ Test second level header
 Some super interesting text ............................................... eliza hello? ............................
 ......................................... yes? .................... is it really you??? .............................
 .....................................................................................................................
-No. [How bad are you?](https://darkfactor.org/)
+No. ..................................................................... [How bad are you?](https://darkfactor.org/)
+..................... [How bad am I?](https://qst.darkfactor.org/?site=pFBbkROQmtYbDVsNjFjR3BtcEhsMlo1aWNJOXVUNGlWQmRtaGd0REtwc1RaSnJsNEp4V2hOQjRWWW1XMzZWRzFtNg)
+..................................................................................................
