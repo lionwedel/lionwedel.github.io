@@ -1,6 +1,6 @@
 ---
 title: "incels.is forum dataset"
-collection: publications
+collection: data publications
 permalink: /publication/2023-01-12-incels-forum-dataset
 excerpt: 'Dataset of the incels.is forum. For replication purposes only.'
 date: 2023-01-12
