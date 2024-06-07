@@ -1,7 +1,7 @@
 ---
 title: "The R package rtoot"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2023-09-01-The-R-package-rtoot
 excerpt: 'Software review of the rtoot package. A wrapper for the Mastodon API.'
 date: 2023-09-01
 venue: 'Mobile Media & Communication'
