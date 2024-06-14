@@ -1,21 +1,20 @@
 ---
 permalink: /
-title: "About me"
+title: "Welcome to Wedel's World"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is a personal website - blending professional and private projects, academic and non-academic publications.
-Feel free to reach out to me!
-
-Test second level header
+Meet me at...
 ======
-Some super interesting text ... <be>
-.... <br>
-eliza hello? ............ yes? ..... is it really you??? ... No. 
+* [Social Media + Society 2024](https://socialmediaandsociety.org/); July 16-18, 2024; London, UK
+* [Ecrea 2024]([https://socialmediaandsociety.org/](https://c-in.floq.live/event/ecrea2024/Landing)); September 24-27, 2024; Ljubiljana, Slovenia
 
-[How bad are you?](https://darkfactor.org/)
-[How bad am I?](https://qst.darkfactor.org/?site=pFBbkROQmtYbDVsNjFjR3BtcEhsMlo1aWNJOXVUNGlWQmRtaGd0REtwc1RaSnJsNEp4V2hOQjRWWW1XMzZWRzFtNg)
+
+Curious Links
+======
+
+* [How bad are you?](https://darkfactor.org/)
 
