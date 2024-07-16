@@ -32,4 +32,5 @@ Random Links
 ======
 
 * [How bad are you?](https://darkfactor.org/)
+* [Digital Exhibition on Joseph Weizenbaum - if you do not know who that his - click!](https://jw.weizenbaum-institut.de/)
 
