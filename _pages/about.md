@@ -16,9 +16,9 @@ To serve a more profound conclusion, Academia is a lovely playground, and I enjo
 
 In line with that, my research is focused on those three fields:
 I pursue ...
-1.) ... contributions to the audience's perception of informative content and actors on social media.
-2.) ... to push the boundaries of computational methods applied in social science research (multi-modal classification, GenAI as a method).
-3.) ... empirical research on socially relevant phenomena (information dynamics on TikTok, online misogyny).
+* 1.) ... contributions to the audience's perception of informative content and actors on social media.
+* 2.) ... to push the boundaries of computational methods applied in social science research (multi-modal classification, GenAI as a method).
+* 3.) ... empirical research on socially relevant phenomena (information dynamics on TikTok, online misogyny).
 
 
 Upcoming:
