@@ -8,4 +8,4 @@ date: 2023-05-25
 location: "Toronto, Canada"
 ---
 
-This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+I participated in the ICA 2023 pre-conference "12th Annual Doctoral Consortium of the Communication and Technology Division". This included critically discussing each other's thesis proposal with three PhD candidates and two supervisors. We furthermore held a poster session with all participating PhD students.
