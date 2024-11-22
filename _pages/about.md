@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-About Me
-======
 Hi! I am Lion, a computational social scientist. I studied sociology and economics during my bachelor's and compuational social systems (computer science, psychology, and ethics) during my master's. Since November 2022, I work as a research associate at the Weizenbaum Institute for the Networked Society in Berlin while pursuing a PhD in Communications Science at the FU Berlin. 
 
 Until 20th of December
