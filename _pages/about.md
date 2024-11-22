@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Welcome to Wedel's World"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
