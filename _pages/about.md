@@ -15,6 +15,7 @@ Until 20th of December
 
 Links worth to explore
 ======
+* [A blog post by me on how and when t use the offical TikTok API.](https://methodslab.weizenbaum-institut.de/2024/11/12/tutorial-when-and-how-to-use-the-official-tiktok-api/#more-3179)
 * [How bad are you?](https://darkfactor.org/)
 * [Digital Exhibition on Joseph Weizenbaum - if you do not know who that his - click!](https://jw.weizenbaum-institut.de/)
 
