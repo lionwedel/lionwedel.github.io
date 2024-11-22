@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Wedel's World"
+title                    : "Lion Wedel"
 title_separator          : "-"
-name                     : &name "Lion Wedel"
+#name                     : &name "Lion Wedel"
 description              : &description "Computational social scientist. Information, Social Media an visual computing"
 url                      : https://lionwedel.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "lionwedel/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "lion_bar_chess.png"
-  name             : "Lion Wedel"
+#  name             : "Lion Wedel"
   pronouns         : # example: "she/her"  
   bio              : "MLU Halle-Wittenberg > Universității Babeș-Bolyai > RWTH Aachen > Weizenbaum Institute/ FU Berlin"
   location         : "Berlin"
