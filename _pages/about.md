@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Wedel's World"
+title: "Lion Wedel"
 author_profile: true
 redirect_from: 
   - /about/

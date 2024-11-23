@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Lion Wedel"
+title                    : "About"
 title_separator          : "-"
 name                     : #&name "Lion Wedel"
 description              : &description "Computational social scientist. Information, Social Media an visual computing"
