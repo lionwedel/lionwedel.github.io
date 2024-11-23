@@ -6,4 +6,3 @@ date: 2024-07-17
 venue: 'International Conference on Social Media &amp; Society'
 citation: ' Lion Wedel,  Jonathan Hendrickx,  Anna-Theresa Mayer, &quot;What Occurs as #news on TikTok? A Computational Approach.&quot; International Conference on Social Media &amp;amp; Society, 1900.'
 ---
-Use [Google Scholar](https://scholar.google.com/scholar?q=What+Occurs+as+#news+on+TikTok?+A+Computational+Approach){:target="_blank"} for full citation

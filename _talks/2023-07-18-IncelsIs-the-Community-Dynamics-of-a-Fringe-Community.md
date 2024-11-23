@@ -7,4 +7,4 @@ venue: '9th International Conference on Computational Social Science'
 paperurl: 'https://ic2s2-2023.org/program'
 citation: ' Lion Wedel, &quot;Incels.Is - the Community Dynamics of a Fringe Community.&quot; 9th International Conference on Computational Social Science, 1900.'
 ---
-[Access paper here](https://ic2s2-2023.org/program){:target="_blank"}
+[Access here](https://ic2s2-2023.org/program){:target="_blank"}

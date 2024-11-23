@@ -7,4 +7,4 @@ venue: 'Data Donation Symposium 2023'
 paperurl: 'https://datadonation.uzh.ch/en/symposium-2023/'
 citation: ' Lion Wedel, &quot;Augmenting Data Donations – Integrating TikTok DDPs, Video Metadata, and the Multi-Modal Nature of Audio-Visual Content.&quot; Data Donation Symposium 2023, 1900.'
 ---
-[Access paper here](https://datadonation.uzh.ch/en/symposium-2023/){:target="_blank"}
+[Access here](https://datadonation.uzh.ch/en/symposium-2023/){:target="_blank"}

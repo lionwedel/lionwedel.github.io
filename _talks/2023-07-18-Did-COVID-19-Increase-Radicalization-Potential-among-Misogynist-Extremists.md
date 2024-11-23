@@ -7,4 +7,4 @@ venue: '9th International Conference on Computational Social Science'
 paperurl: 'https://ic2s2-2023.org/program'
 citation: ' Linda Coufal,  Lion Wedel, &quot;Did COVID-19 Increase Radicalization Potential among Misogynist Extremists?.&quot; 9th International Conference on Computational Social Science, 1900.'
 ---
-[Access paper here](https://ic2s2-2023.org/program){:target="_blank"}
+[Access here](https://ic2s2-2023.org/program){:target="_blank"}
