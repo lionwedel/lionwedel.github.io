@@ -27,11 +27,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.collection == 'talks' and post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
-      {% elsif post.collection == 'talks' and post.link %}
-        <a href="{{ post.link }}" target="_blank">{{ title }}</a>
-      {% elsif post.paperurl %}
+      {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
       {% elsif post.doi %}
         <a href="https://doi.org/{{ post.doi }}" target="_blank">{{ title }}</a>
@@ -59,6 +55,12 @@
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+    
+    {% if post.paperurl %}
+      <p><a href="{{ post.paperurl }}" target="_blank">Paper</a></p>
+    {% elsif post.slidesurl %}
+      <p><a href="{{ post.slidesurl }}" target="_blank">Slides</a></p>
     {% endif %}
 
   </article>
