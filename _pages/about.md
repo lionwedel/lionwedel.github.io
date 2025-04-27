@@ -12,7 +12,8 @@ Hi! I am Lion, a computational social scientist. I studied sociology and economi
 
 Upcoming Activities
 =====
-* 28th of April, **Input on Data Donations for researching TikTok** @Workshop *Researching TikTok: Methodological Challenges and Solutions* organized by [ISD Germany](www.isdgermany.org)
+* 4th of June 2025, **Conference Presentation**, *Classifying TikTok & co. – moving away from external definitions to a user-centered approach.*, [@Weizenbaum Conference 2025](https://www.weizenbaum-conference.de/)
+* 28th of April 2025, **Input on Data Donations for researching TikTok** @Workshop *Researching TikTok: Methodological Challenges and Solutions* organized by [ISD Germany](www.isdgermany.org)
 
 
 Past Activities
