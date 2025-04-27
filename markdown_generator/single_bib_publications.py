@@ -43,7 +43,6 @@ pub_types = {
         "venue-pretext": "",
         "collection": {"name":"publications",
                         "permalink":"/publication/"}
-
     }
 }
 
@@ -93,6 +92,11 @@ try:
 except Exception as e:
     print(f"Error parsing BibTeX file: {e}")
     sys.exit(1)
+
+# Get the absolute path to the script's directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Get the absolute path to the parent directory (where _publications and _talks folders are)
+parent_dir = os.path.dirname(script_dir)
 
 #loop through the individual references in a given bibtex file
 for bib_id in bibdata.entries:
@@ -207,11 +211,19 @@ for bib_id in bibdata.entries:
 
         md_filename = os.path.basename(md_filename)
 
-        path = f"../_{pub_types[pub_type]['collection']['name']}/" + md_filename
-
-        with open(path, 'w', encoding="utf-8") as f:
+        # Construct the absolute path to the output directory
+        output_dir = os.path.join(parent_dir, f"_{pub_types[pub_type]['collection']['name']}")
+        # Construct the absolute path to the output file
+        output_path = os.path.join(output_dir, md_filename)
+        
+        # Ensure the output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Write the file
+        with open(output_path, 'w', encoding="utf-8") as f:
             f.write(md)
         print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
+        print(f'  Written to: {output_path}')
     # field may not exist for a reference
     except KeyError as e:
         print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
