@@ -214,6 +214,26 @@ for bib_id in bibdata.entries:
 
         md += "\nvenue: '" + html_escape(venue) + "'"
         
+        # Add venue information for talks
+        if pub_type == "talks":
+            # Try to get event title and venue
+            event_title = ""
+            venue_name = ""
+            
+            if "eventtitle" in b.keys():
+                event_title = b["eventtitle"].replace("{", "").replace("}","").replace("\\","")
+            
+            if "venue" in b.keys():
+                venue_name = b["venue"].replace("{", "").replace("}","").replace("\\","")
+            
+            # Format as "Event title, venue" if both exist, or just use whichever is available
+            if event_title and venue_name:
+                md += "\nvenue: '" + html_escape(event_title + ", " + venue_name) + "'"
+            elif event_title:
+                md += "\nvenue: '" + html_escape(event_title) + "'"
+            elif venue_name:
+                md += "\nvenue: '" + html_escape(venue_name) + "'"
+        
         # Check for URL or DOI to use as paperurl
         paperurl = None
         if "url" in b.keys() and len(str(b["url"])) > 5:

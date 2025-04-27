@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I am Lion, a computational social scientist. I studied sociology and economics during my bachelor's and compuational social systems (computer science, psychology, and ethics) during my master's. Since November 2022, I work as a research associate at the Weizenbaum Institute for the Networked Society in Berlin while pursuing a PhD in Communications Science at the FU Berlin. 
-UPDATE 3
+
 Upcoming Activities
 =====
 * 21st - 24th of July 2025, **Poster Presentation**. *Classifying short vertical videos – moving away from external definitions to a user-centered approach*, [@IC2S2](https://www.ic2s2-2025.org/program/), Norrköping (Sweden)
