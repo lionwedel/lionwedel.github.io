@@ -19,7 +19,7 @@ Past Activities
 ======
 * January - March 2025, **Data donation project on the German Federal elections** - [deinfeed-deinewahl.de](https://dein-feed-deine-wahl.de/)
 * Octbober - December 2024, **Research Fellowship** with the [Media Use & Effects Team](https://www.ikmz.uzh.ch/en/research/divisions/media-use-and-effects.html) @IKMZ; *University of Zurich*
-
+* Januaray 2024, **Guest lecture**, *Data collection and analysis for TikTok*, Freie Universität Berlin, Institut für Publizistik- und Kommunikationswissenschaft
 
 
 The internet
