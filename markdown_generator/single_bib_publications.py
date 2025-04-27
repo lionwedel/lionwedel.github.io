@@ -6,6 +6,7 @@ import html
 import os
 import re
 import sys
+import datetime
 
 # Define publication types and their corresponding BibTeX entry types
 pub_types = {
@@ -136,9 +137,38 @@ for bib_id in bibdata.entries:
             if "day" in b.keys(): 
                 pub_day = str(b["day"])
 
-            pub_date = pub_year+"-"+pub_month+"-"+pub_day
+            # Ensure we have a valid date in YYYY-MM-DD format
+            try:
+                # Try to parse the date to validate it
+                datetime.datetime(int(pub_year), int(pub_month), int(pub_day))
+                pub_date = f"{pub_year}-{pub_month}-{pub_day}"
+            except ValueError:
+                # If the date is invalid, use the first day of the month
+                print(f"WARNING: Invalid date {pub_year}-{pub_month}-{pub_day} for entry {bib_id}. Using first day of month.")
+                pub_date = f"{pub_year}-{pub_month}-01"
         except:
-            pub_date = f'{b["date"]}'
+            # If we can't get a valid date from year/month/day, try the date field
+            try:
+                date_str = b["date"]
+                # Try to parse the date string
+                if "-" in date_str:
+                    parts = date_str.split("-")
+                    if len(parts) >= 3:
+                        pub_date = f"{parts[0]}-{parts[1].zfill(2)}-{parts[2].zfill(2)}"
+                    elif len(parts) == 2:
+                        pub_date = f"{parts[0]}-{parts[1].zfill(2)}-01"
+                    else:
+                        pub_date = f"{date_str}-01-01"
+                else:
+                    pub_date = f"{date_str}-01-01"
+                
+                # Validate the date
+                year, month, day = map(int, pub_date.split("-"))
+                datetime.datetime(year, month, day)
+            except:
+                # If all else fails, use a default date
+                print(f"WARNING: Could not parse date for entry {bib_id}. Using default date.")
+                pub_date = "1900-01-01"
                 
         
         #strip out {} as needed (some bibtex entries that maintain formatting)
@@ -180,7 +210,7 @@ for bib_id in bibdata.entries:
                 md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
                 note = True
 
-        md += "\ndate: " + str(pub_date) 
+        md += "\ndate: " + pub_date 
 
         md += "\nvenue: '" + html_escape(venue) + "'"
         
