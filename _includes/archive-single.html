@@ -27,7 +27,11 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.paperurl %}
+      {% if post.collection == 'talks' and post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
+      {% elsif post.collection == 'talks' and post.link %}
+        <a href="{{ post.link }}" target="_blank">{{ title }}</a>
+      {% elsif post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank">{{ title }}</a>
       {% elsif post.doi %}
         <a href="https://doi.org/{{ post.doi }}" target="_blank">{{ title }}</a>
