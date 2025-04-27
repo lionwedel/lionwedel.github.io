@@ -60,6 +60,28 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
+def fix_special_chars(text):
+    """Fix special characters like German umlauts."""
+    replacements = {
+        '"a': 'ä',
+        '"o': 'ö',
+        '"u': 'ü',
+        '"A': 'Ä',
+        '"O': 'Ö',
+        '"U': 'Ü',
+        '"s': 'ß',
+        '\\"a': 'ä',
+        '\\"o': 'ö',
+        '\\"u': 'ü',
+        '\\"A': 'Ä',
+        '\\"O': 'Ö',
+        '\\"U': 'Ü',
+        '\\"s': 'ß'
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return text
+
 # Create necessary directories
 for pub_type in pub_types.values():
     dir_path = f"../_{pub_type['collection']['name']}"
@@ -222,9 +244,11 @@ for bib_id in bibdata.entries:
             
             if "eventtitle" in b.keys():
                 event_title = b["eventtitle"].replace("{", "").replace("}","").replace("\\","")
+                event_title = fix_special_chars(event_title)
             
             if "venue" in b.keys():
                 venue_name = b["venue"].replace("{", "").replace("}","").replace("\\","")
+                venue_name = fix_special_chars(venue_name)
             
             # Format as "Event title, venue" if both exist, or just use whichever is available
             if event_title and venue_name:
