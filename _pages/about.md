@@ -12,6 +12,7 @@ Hi! I am Lion, a computational social scientist. I studied sociology and economi
 
 Upcoming Activities
 =====
+* 21st - 24th of July 2025, **Poster Presentation**. *Classifying short vertical videos – moving away from external definitions to a user-centered approach*, [@IC2S2](https://www.ic2s2-2025.org/program/)
 * 4th of June 2025, **Conference Presentation**, *Classifying TikTok & co. – moving away from external definitions to a user-centered approach.*, [@Weizenbaum Conference 2025](https://www.weizenbaum-conference.de/)
 * 28th of April 2025, **Input on Data Donations for researching TikTok** @Workshop *Researching TikTok: Methodological Challenges and Solutions* organized by [ISD Germany](www.isdgermany.org)
 
