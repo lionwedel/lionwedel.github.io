@@ -214,23 +214,22 @@ for bib_id in bibdata.entries:
 
         md += "\nvenue: '" + html_escape(venue) + "'"
         
-        url = False
-        if "url" in b.keys():
-            if len(str(b["url"])) > 5:
-                md += "\npaperurl: '" + b["url"] + "'"
-                url = True
+        # Check for URL or DOI to use as paperurl
+        paperurl = None
+        if "url" in b.keys() and len(str(b["url"])) > 5:
+            paperurl = b["url"]
+            md += "\npaperurl: '" + paperurl + "'"
+        
+        # Add DOI if available, otherwise use URL if available
+        try:
+            if "doi" in b.keys() and len(str(b["doi"])) > 5:
+                md += "\ndoi: '" + b["doi"] + "'"
+            elif paperurl:
+                md += "\ndoi: '" + paperurl + "'"
+        except:
+            pass
 
         md += "\ncitation: '" + html_escape(citation) + "'"
-
-        # doi for all publications with doi
-        try:
-            md += "\ndoi: '" + b["doi"] + "'"
-        except:
-            try:
-                if "url" in b.keys() and len(str(b["url"])) > 5:
-                    md += "\ndoi: '" + b["url"] + "'"
-            except:
-                pass
         
         md += "\n---"
 
