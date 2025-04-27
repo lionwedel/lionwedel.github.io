@@ -12,14 +12,13 @@ Hi! I am Lion, a computational social scientist. I studied sociology and economi
 
 Upcoming Activities
 =====
-* Input on Data Donations for researching TikTok @Workshop "Researching TikTok: Methodological Challenges and Solutions" organized by [ISD Germany](www.isdgermany.org)
+* 28th of April, **Input on Data Donations for researching TikTok** @Workshop *Researching TikTok: Methodological Challenges and Solutions* organized by [ISD Germany](www.isdgermany.org)
 
 
 Past Activities
 ======
-* January - March 2025, Data donation project on the German Federal elections: [deinfeed-deinewahl.de](https://dein-feed-deine-wahl.de/)
-* Research Fellowship with the [Media Use & Effects Team](https://www.ikmz.uzh.ch/en/research/divisions/media-use-and-effects.html) @IKMZ; University of Zurich; October - December 2024
-
+* January - March 2025, **Data donation project on the German Federal elections** - [deinfeed-deinewahl.de](https://dein-feed-deine-wahl.de/)
+* Octbober - December 2024, **Research Fellowship** with the [Media Use & Effects Team](https://www.ikmz.uzh.ch/en/research/divisions/media-use-and-effects.html) @IKMZ; *University of Zurich*
 
 
 
@@ -29,3 +28,7 @@ The internet
 * [How bad are you?](https://darkfactor.org/)
 * [Digital Exhibition on Joseph Weizenbaum - if you do not know who that his - click!](https://jw.weizenbaum-institut.de/)
 
+
+Reviewed for
+====
+* Mobile Media & Communications
