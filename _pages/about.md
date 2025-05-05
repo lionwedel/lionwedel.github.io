@@ -20,8 +20,8 @@ Upcoming Activities
 
 Past Activities
 ======
-* 20th of February, **Panel discussion** - [Wenig Zeit und laute Worte? – Der Wahlkampf im Brennpunkt der vorgezogenen Bundestagswahl](https://www.berlin.de/ba-tempelhof-schoeneberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1530946.php)
-* 10th of March, **In the news!** - [Der wachsende Einfluss von TikTok beunruhigt – doch die Schweiz will kein Verbot](https://www.swissinfo.ch/ger/wissenschaft/der-wachsende-einfluss-von-tiktok-beunruhigt-doch-die-schweiz-will-kein-verbot/88965790)
+* 20th of February, **Panel discussion**, *Wenig Zeit und laute Worte? – Der Wahlkampf im Brennpunkt der vorgezogenen Bundestagswahl*, [Link](https://www.berlin.de/ba-tempelhof-schoeneberg/aktuelles/pressemitteilungen/2025/pressemitteilung.1530946.php)
+* 10th of March, **In the news!**, *Der wachsende Einfluss von TikTok beunruhigt – doch die Schweiz will kein Verbot*, [Link](https://www.swissinfo.ch/ger/wissenschaft/der-wachsende-einfluss-von-tiktok-beunruhigt-doch-die-schweiz-will-kein-verbot/88965790)
 * January - March 2025, **Data donation project on the German Federal elections** - [deinfeed-deinewahl.de](https://dein-feed-deine-wahl.de/)
 * Octbober - December 2024, **Research Fellowship** with the [Media Use & Effects Team](https://www.ikmz.uzh.ch/en/research/divisions/media-use-and-effects.html) @IKMZ; *University of Zurich*
 * Januaray 2024, **Guest lecture**, *Data collection and analysis for TikTok*, Freie Universität Berlin, Institut für Publizistik- und Kommunikationswissenschaft
