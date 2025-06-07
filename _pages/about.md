@@ -15,7 +15,7 @@ Upcoming Activities
 * 13th of June 2025, **Conference Presentation**, *The Impact of User Deletion on Data Quality in Data Donation Studies*, [PREPRINT](https://nbn-resolving.org/urn:nbn:de:0168-ssoar-102706-3), [@ICA 2025](https://www.icahdq.org/mpage/ICA25), Denver (USA)
 * 14th of June 2025, **Conference Presentation**, *A Comparative Analysis of Data Donation Behavior Across Social Media Platforms*, [@ICA 2025](https://www.icahdq.org/mpage/ICA25), Denver (USA)
 * 21st - 24th of July 2025, **Poster Presentation**, *Classifying short vertical videos – moving away from external definitions to a user-centered approach*, [@IC2S2](https://www.ic2s2-2025.org/program/), Norrköping (Sweden)
-* 5th - 7th of August 2025, **Workshop** with [David Wegman](https://www.au.dk/en/david.wegmann@cc.au.dk/), *Computational Video Classification: A hands-on workshop on analyzing videos at scale for the footage-flooded and code-curious*, [@CVMR](https://www.ikmz.uzh.ch/en/research/divisions/computational-social-and-communication-science/CVMR25.html), Zurich (Switzerland)
+* 5th - 7th of August 2025, **Workshop** with [David Wegmann](https://www.au.dk/en/david.wegmann@cc.au.dk/), *Computational Video Classification: A hands-on workshop on analyzing videos at scale for the footage-flooded and code-curious*, [@CVMR](https://www.ikmz.uzh.ch/en/research/divisions/computational-social-and-communication-science/CVMR25.html), Zurich (Switzerland)
 * 25th - 26th of September 2025, **Panel discussion**, *Experiences with data access, [Data access days](https://dsa40collaboratory.eu/data-access-days/#dad-registration)
 * 15th - 18th of October 2025, **Conference Presentation**, *tba*, [@AoIR 2025](https://aoir.org/aoir2025/), DNiterói, Rio de Janeiro (Brazil)
 
