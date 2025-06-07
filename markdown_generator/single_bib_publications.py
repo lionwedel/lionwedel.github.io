@@ -48,6 +48,7 @@ pub_types = {
 }
 
 # Single BibTeX file for all publication types
+## Export as....
 bib_file = "markdown_generator/lw_publications_04_2025.bib"
 
 html_escape_table = {
